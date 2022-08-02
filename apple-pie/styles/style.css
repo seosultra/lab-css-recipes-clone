@@ -13,8 +13,7 @@ body {
   color: white;
   background-image: url("../images/apple-pie.jpg");
   letter-spacing: 7px;
-  /*background-origin: content-box;*/
-  background-size: cover;
+  background-origin: content-box;
 }
 .top h1 {
   padding: 95px;
@@ -33,8 +32,10 @@ img {
 }
 .direction ol li::before {
   content: counter(section) ")";
+  /* This is to change list style to 1)*/
 }
 .direction ol li {
   list-style: none;
+  /*This is to remove the dot from the listed items */
   counter-increment: section;
 }
