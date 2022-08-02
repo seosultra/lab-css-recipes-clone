@@ -1,12 +1,11 @@
 body {
-  font-size: 20px;
-  font-family: proxima;
+  font-size: 10px;
+  font-family: sans-serif;
   margin: 100;
   padding: 30;
   color: #504e4e;
 }
 .top {
-  font-size: 30px;
   text-align: center;
   height: 700px;
   width: 1180;
@@ -17,12 +16,13 @@ body {
   background-size: cover;
 }
 .top h1 {
-  padding: 95px;
+  padding: 300px;
+  font-size: 70px;
 }
 .content {
   border: 20;
   padding: 120px;
-  font-size: 43px;
+  font-size: 35px;
 }
 img {
   padding: 7px 270px;
@@ -39,4 +39,7 @@ img {
   list-style: none;
   /*This is to remove the dot from the listed items */
   counter-increment: section;
+}
+h7 {
+  font-weight: bold;
 }
