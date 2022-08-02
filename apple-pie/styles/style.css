@@ -13,7 +13,8 @@ body {
   color: white;
   background-image: url("../images/apple-pie.jpg");
   letter-spacing: 7px;
-  background-origin: content-box;
+  /*background-origin: content-box;*/
+  background-size: cover;
 }
 .top h1 {
   padding: 95px;
